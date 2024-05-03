@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medical Store</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+    <body>
+        <div id="nav">
+            <ul class="navlist">
+                <li onclick="Home()">Home</li>
+                <li onclick="MedicineDetails()">Medicine Details</li>
+                <li onclick="Purchase()">Purchase</li>
+                <li onclick="Cancel()">Cancel</li>
+                <li onclick="TopUp()">TopUp</li>
+                <li onclick="ShowBalance()">Show Balance</li>
+                <li onclick="OrderHistory()">Order History</li>
+            </ul>
+        </div>
+        <div id="home-tab">
+            <p id="welcome"></p>
+        </div>
+        <div id="medicine">
+            <table id="table">
+            </table>
+        </div>
+        <div id="purchase">
+            <table id="table-body">
+            </table>
+        </div>
+        <div id="quantity-block">
+            <div><label for="quantity">Enter Quantity</label></div>
+            <div><input type="number" id="quantity" placeholder="Enter Medicine Quantity"></div>
+            <div><button onclick="buyMedicine()">buy</button></div>
+        </div>
+        <div id="cancel">
+            <table id="table2">
+            </table>
+        </div>
+        <div id="balance">
+            <p id="balance1"></p>
+        </div>
+        <div id="deposit">
+            <input id="recharge" type="number" placeholder="Enter Amount"><br>
+            <button type="submit" onclick="Deposit()">Submit</button>
+        </div>
+        <div id="order">
+            <table id="table3">
+            </table>
+        </div>
+        <div id="container" class="container">
+            <button class="signup1" onclick="SignUp()">SignUp</button><button class="signin1" onclick="SignIn()">SignIn</button><br>
+            <div id="signup" class="signup">
+                    <input id="name1" type="text" placeholder="Enter Name"><br>
+                    <input id="mail" type="text" placeholder="Enter Mail"><br>
+                    <input id="pass" type="password" placeholder="Enter Password"><br>
+                    <input id="conpass" type="password" placeholder="Enter Confirm Password"><br>
+                    <input id="mobile" type="text" placeholder="Enter Mobile Number"><br>
+                    <button id="submit" onclick="SubSignUp()">Submit</button><br>
+            </div>
+            <div id="signin" class="signin">
+                    <input id="mail2" type="text" placeholder="Enter Mail"><br>
+                    <input id="pass2" type="password" placeholder="Enter Password"><br>
+                    <button id="submit1" onclick="SubSignIn()">Submit</button>
+            </div>
+        </div>
+        <script src="TypeScript/index.js"></script>
+    </body>
+</html>

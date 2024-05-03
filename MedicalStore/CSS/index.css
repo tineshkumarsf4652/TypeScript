@@ -1,0 +1,129 @@
+.container{
+    border:3px solid black;
+    width:28rem;
+    height:30rem;
+    margin: 0 auto;
+    margin-top:7rem;
+    flex:wrap
+}
+.signup{
+    display: none;
+    padding-left: 5rem;
+    margin-top:8vh;
+    flex:wrap;
+}
+.navlist{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#nav{
+    display:none;
+}
+.signin{
+    padding-left:5rem;
+    margin-top:10vh;
+    flex:wrap;
+}
+#name1{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+#mail{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+#pass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+#conpass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+#mobile{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+#submit{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+.signup1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:5vh;
+    margin-left:1.5vw;
+}
+.signin1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:5vh;
+    margin-left:1vw;
+}
+#mail2{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+#pass2{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:4vh;
+}
+#submit1{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+#medicine{
+    display:none;
+}
+#table{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#deposit{
+    display:none;
+}
+#table-body,td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#purchase{
+    display:none;
+}
+#quantity-block{
+    display:none;
+}
+#cancel{
+    display:none;
+}
+#table2,td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#order{
+    display:none;
+}
+#table3,td,th{
+    border:2px solid black;
+    border-collapse: collapse;
+}
