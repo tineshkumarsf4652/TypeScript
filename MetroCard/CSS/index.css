@@ -1,0 +1,36 @@
+.container{
+    border:2px solid black;
+    width:30rem;
+    height:25rem;
+    margin:0 auto;
+    margin-top:10rem;
+}
+.register{
+    display:none;
+}
+.navbar{
+    display:none;
+}
+.navlist{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.recharge{
+    display:none;
+}
+.travelhistory{
+    display:none;
+}
+.table,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.travel{
+    display:none;
+}
+.table1,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
