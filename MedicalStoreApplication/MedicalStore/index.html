@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medical Store</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <ul class="navlist">
+                <li onclick="Home()">Home</li>
+                <li onclick="MedicineDetails()">Medicine Details</li>
+                <li onclick="Purchase()">Purchase</li>
+                <li onclick="Cancel()">Cancel</li>
+                <li onclick="TopUp()">TopUp</li>
+                <li onclick="ShowBalance()">Show Balance</li>
+                <li onclick="OrderHistory()">Order History</li>
+            </ul>
+        </div>
+        <div class="home-tab" id="home-tab">
+            <p class="welcome" id="welcome"></p>
+        </div>
+        <div class="medicine" id="medicine">
+            <button class="addmedicine" onclick="AddMedicine()" id="addmedicine">Add</button><br>
+            <table class="table" id="table">
+            </table>
+        </div>
+        <div class="edit" id="edit">
+            <label><span>Medicine Name :</span></label>
+            <input class="mname" type="text" id="mname"><br>
+            <label><span>Quantity :</span></label>
+            <input class="mquantity" type="number" id="mquantity"><br>
+            <label><span>Price :</span></label>
+            <input class="mprice" type="number" id="mprice"><br>
+            <label><span>Expiry Date :</span></label>
+            <input class="mexpiry" type="date" id="mexpiry"><br>
+            <button onclick="Edit()">Submit</button>
+        </div>
+        <div class="add" id="add">
+            <label><span>Medicine Name :</span></label>
+            <input class="mname1" type="text" id="mname1"><br>
+            <label><span>Quantity :</span></label>
+            <input class="mquantity1" type="number" id="mquantity1"><br>
+            <label><span>Price :</span></label>
+            <input class="mprice1" type="number" id="mprice1"><br>
+            <label><span>Expiry Date :</span></label>
+            <input class="mexpiry1" type="date" id="mexpiry1"><br>
+            <button onclick="Add()">Submit</button>
+        </div>
+        <div class="purchase" id="purchase">
+            <table class="table-body" id="table-body">
+            </table>
+        </div>
+        <div class="quantity-block" id="quantity-block">
+            <div><label for="quantity">Enter Quantity</label></div>
+            <div><input class="quantity" type="number" id="quantity" placeholder="Enter Medicine Quantity"></div>
+            <div><button onclick="buyMedicine()">Submit</button></div>
+        </div>
+        <div class="cancel" id="cancel">
+            <table class="table2" id="table2">
+            </table>
+        </div>
+        <div class="balance" id="balance">
+            <p class="balance1" id="balance1"></p>
+        </div>
+        <div class="deposit" id="deposit">
+            <input class="recharge" id="recharge" type="number" placeholder="Enter Amount"><br>
+            <button type="submit" onclick="Deposit()">Submit</button>
+        </div>
+        <div class="order" id="order">
+            <table class="table3" id="table3">
+            </table>
+        </div>
+        <div id="container" class="container">
+            <button class="signup1" onclick="SignUp()">SignUp</button><button class="signin1" onclick="SignIn()">SignIn</button><br>
+            <div id="signup" class="signup">
+                    <input class="name1" id="name1" type="text" placeholder="Enter Name"><br>
+                    <input class="mail" id="mail" type="text" placeholder="Enter Mail"><br>
+                    <input class="pass" id="pass" type="password" placeholder="Enter Password"><br>
+                    <input class="conpass" id="conpass" type="password" placeholder="Enter Confirm Password"><br>
+                    <input class="mobile" id="mobile" type="text" placeholder="Enter Mobile Number"><br>
+                    <button class="submit" id="submit" onclick="SubSignUp()">Submit</button><br>
+            </div>
+            <div id="signin" class="signin">
+                    <input class="mail2" id="mail2" type="text" placeholder="Enter Mail"><br>
+                    <input class="pass2" id="pass2" type="password" placeholder="Enter Password"><br>
+                    <button class="submit1" id="submit1" onclick="SubSignIn()">Submit</button>
+            </div>
+        </div>
+        <script src="TypeScript/index.js"></script>
+    </body>
+</html>
