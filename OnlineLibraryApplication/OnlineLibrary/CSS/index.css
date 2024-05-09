@@ -1,0 +1,133 @@
+.container{
+    border:3px solid black;
+    width:28rem;
+    height:38rem;
+    margin: 0 auto;
+    flex:wrap
+}
+.signup{
+    display: none;
+    padding-left: 5rem;
+    margin-top:8vh;
+    flex:wrap;
+}
+.signin{
+    padding-left:5rem;
+    margin-top:10vh;
+    flex:wrap;
+}
+.name{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+.mail{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.pass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.conpass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.mobile{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.gender{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.depart{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.submit{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+.signup1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:5vh;
+    margin-left:1.5vw;
+}
+.signin1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:5vh;
+    margin-left:1vw;
+}
+.mail1{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+.pass1{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:4vh;
+}
+.submit1{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+.navlist{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.nav{
+    display:none;
+}
+.borrow{
+    display:none;
+}
+.table,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.quantity-block{
+    display:none;
+}
+.history{
+    display:none;
+}
+.table2,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.return{
+    display: none;
+}
+.table3,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.deposit{
+    display:none;
+}

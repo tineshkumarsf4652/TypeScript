@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Library</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <img src="" id="img">
+            <ul class="navlist">
+                <li onclick="Home()">Home</li>
+                <li onclick="BorrowBook()">Borrowbook</li>
+                <li onclick="BorrowedHistory()">ShowBorrowedHistory</li>
+                <li onclick="ReturnBook()">ReturnBook</li>
+                <li onclick="TopUp()">Recharge</li>
+                <li onclick="ShowBalance()">ShowBalance</li>
+                <li>Exit</li>
+            </ul>
+        </div>
+        <div class="home-tab" id="home-tab">
+            <p id="home"></p>
+        </div>
+        <div class="borrow" id="borrow">
+            <table class="table" id="table"></table>
+        </div>
+        <div class="quantity-block" id="quantity-block">
+            <label><span>Book Count</span></label>
+            <input class="quantity" id="quantity" type="number" placeholder="Enter Book Count"><br>
+            <button onclick="TakenBook()">Submit</button>
+        </div>
+        <div class="history" id="history">
+            <table class="table2" id="table2"></table>
+            <button onclick="downloadborrowhistory()">Download</button>
+        </div>
+        <div class="return" id="return">
+            <table class="table3" id="table3"></table>
+        </div>
+        <div class="deposit" id="deposit">
+            <input class="recharge" id="recharge" type="number" placeholder="Enter Amount"><br>
+            <button onclick="Recharge()">Submit</button>
+        </div>
+        <div class="balance" id="balance">
+            <p class="balance1" id="balance1"></p>
+        </div>
+        <div class="container" id="container">
+            <button class="signup1" onclick="ClickSignUp()">SignUp</button><button class="signin1"  onclick="ClickSignIn()">SignIn</button>
+            <div class="signup" id="signup">
+                    <input class="name" id="name" type="text" placeholder="Enter UserName"><br>
+                    <input class="mail" id="mail" type="text" placeholder="Enter Mail"><br>
+
+                    <form action="" enctype="multipart/form-data">
+                        <label>Profile</label><br>
+                        <input type="file" id="fileInput">
+                    </form>
+
+                    <input class="pass" id="pass" type="password" placeholder="Enter Password"><br>
+                    <input class="conpass" id="conpass" type="password" placeholder="Enter Confirm Password"><br>
+                    <input class="mobile" id="mobile" type="text" placeholder="Enter Phone Number"><br>
+                    <input class="gender" id="gender" placeholder="Enter Gender"><br>
+                    <input class="depart" id="depart" placeholder="Enter Department"><br>
+                    <button class="submit" id="submit" onclick="SignUp()">Submit</button>
+            </div>
+            <div class="signin" id="signin">
+                <input class="mail1" id="mail1" type="text" placeholder="Enter Mail"><br>
+                <input class="pass1" id="pass1" type="password" placeholder="Enter Password"><br>
+                <button class="submit1" id="submit1" onclick="SignIn()">Submit</button>
+            </div>
+        </div>
+        <script src="TypeScript/index.js"></script>
+    </body>
+</html>
