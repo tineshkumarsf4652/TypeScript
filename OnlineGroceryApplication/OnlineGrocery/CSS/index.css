@@ -1,0 +1,152 @@
+.container{
+    border:3px solid black;
+    width:28rem;
+    height:30rem;
+    margin: 0 auto;
+    margin-top:7rem;
+    flex:wrap
+}
+.signup{
+    display: none;
+    padding-left: 5rem;
+    margin-top:6vh;
+    flex:wrap;
+}
+.signup1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:4vh;
+    margin-left:1.5vw;
+}
+.signin{
+    padding-left:5rem;
+    margin-top:10vh;
+    flex:wrap;
+}
+.signin1{
+    flex:wrap;
+    width:12rem;
+    height:2.5rem;
+    margin-top:4vh;
+    margin-left:1vw;
+}
+.name{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+.mail{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.pass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.conpass{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.address{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.phone{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:3vh;
+}
+.submit{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+.mail2{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+}
+.pass2{
+    flex:wrap;
+    width:17rem;
+    height: 1.5rem;
+    margin-top:4vh;
+}
+.submit1{
+    flex:wrap;
+    width:10rem;
+    height:2rem;
+    margin-top:5vh;
+    margin-left:4vw;
+}
+.navbar{
+    display:none;
+}
+.navlist{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.home{
+    margin-top: 20vh;
+    margin-left: 30vw;
+    font-size:5rem;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.grocery{
+    display:none;
+}
+.tablebody,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.edit{
+    display:none;
+}
+.add{
+    display:none;
+}
+.img{
+    height:5rem;
+    min-width:8rem;
+}
+.purchase{
+    display:none;
+}
+.cart{
+    display:none;
+}
+.cart1{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.table,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.quantity-block{
+    display:none;
+}
+.history{
+    display:none;
+}
+.table3,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.deposit{
+    display:none;
+}

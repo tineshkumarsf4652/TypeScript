@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Grocery</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+    <body>
+        <div class="navbar" id="navbar">
+            <ul class="navlist">
+                <li onclick="Home()">Home</li>
+                <li onclick="GroceryDetails()">GroceryDetails</li>
+                <li onclick="Purchase()">Purchase</li>
+                <li onclick="MyCart()">MyCart</li>
+                <li onclick="OrderHistory()">OrderHistory</li>
+                <li onclick="Recharge()">Recharge</li>
+                <li onclick="ShowBalance()">ShowBalance</li>
+            </ul>
+        </div>
+        <div class="home" id="home">
+            <p class="welcome" id="welcome"></p>
+        </div>
+        <div class="grocery" id="grocery">
+            <button class="addgrocery" id="addgrocery" onclick="AddGrocery()">Add</button>
+            <table class="tablebody" id="tablebody"></table>
+        </div>
+        <div class="edit" id="edit">
+            <label><span>Material Name: </span></label>
+            <input class="mname" id="mname" type="text"><br>
+            <label><span>Quantity: </span></label>
+            <input class="mquan" id="mquan" type="number"><br>
+            <label><span>Material Price: </span></label>
+            <input class="mprice" id="mprice" type="number"><br>
+            <label><span>Manufacture Date: </span></label>
+            <input class="mdate" id="mdate" type="date"><br>
+            <label><span>Expiry Date: </span></label>
+            <input class="exdate" id="exdate" type="date"><br>
+            <label><span>Description: </span></label>
+            <input class="desc" id="desc" type="text"><br>
+            <button onclick="Edit()">Submit</button>
+        </div>
+        <div class="add" id="add">
+            <label><span>Material Name: </span></label>
+            <input class="mname1" id="mname1" type="text"><br>
+            <label><span>Quantity: </span></label>
+            <input class="mquan1" id="mquan1" type="number"><br>
+            <label><span>Material Price: </span></label>
+            <input class="mprice1" id="mprice1" type="number"><br>
+            <label><span>Manufacture Date: </span></label>
+            <input class="mdate1" id="mdate1" type="date"><br>
+            <label><span>Expiry Date: </span></label>
+            <input class="exdate1" id="exdate1" type="date"><br>
+            <label><span>Description: </span></label>
+            <input class="desc1" id="desc1" type="text"><br>
+            <form action="" enctype="multipart/form-data">
+                <label><span>Select Image: </span></label>
+                <input class="groceryphoto" id="groceryphoto" type="file">
+            </form>
+            <button onclick="Add()">Submit</button>
+        </div>
+        <div class="purchase" id="purchase">
+            <table class="table" id="table"></table>
+        </div>
+        <div class="cart" id="cart">
+            <table class="cart1" id="cart1"></table>
+            <button onclick="BuyProduct()">Buy</button>
+        </div>
+        <div class="quantity-block" id="quantity-block">
+            <label><span>Quantity: </span></label>
+            <input class="quantity" id="cartquantity" type="number" placeholder="Enter Material Quantity"><br>
+            <button onclick="AddCart()">Submit</button>
+        </div>
+        <div class="history" id="history">
+            <table class="table3" id="table3"></table>
+        </div>
+        <div class="deposit" id="deposit">
+            <label>Recharge</label><br>
+            <input class="recharge" id="recharge" type="number" placeholder="Enter Amount"><br>
+            <button type="submit" onclick="Deposit()">Submit</button>
+        </div>
+        <div class="show" id="show">
+            <p class="balance" id="balance"></p>
+        </div>
+        <div class="container" id="container">
+            <button class="signup1" onclick="ClickSignUp()">SignUp</button><button class="signin1" onclick="ClickSignIn()">SignIn</button>
+            <div class="signup" id="signup">
+                <input class="name" id="name" type="text" placeholder="Enter Name"><br>
+                <input class="mail" id="mail" type="text" placeholder="Enter Mail"><br>
+                <input class="pass" id="pass" type="password" placeholder="Enter Password"><br>
+                <input class="conpass" id="conpass" type="confirm" placeholder="Enter Confirm Password">
+                <input class="address" id="address" type="text" placeholder="Enter Address"><br>
+                <input class="phone" id="phone" type="text" placeholder="Enter Mobile Number"><br>
+                <button class="submit" onclick="SignUp()">Submit</button>
+            </div>
+            <div id="signin" class="signin">
+                <input class="mail2" id="mail2" type="text" placeholder="Enter Mail"><br>
+                <input class="pass2" id="pass2" type="password" placeholder="Enter Password"><br>
+                <button class="submit1" onclick="SignIn()">Submit</button>
+            </div>
+        </div>
+        <script src="TypeScript/index.js"></script>
+    </body>
+</html>
